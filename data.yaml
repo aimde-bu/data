@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Car']
+
+roboflow:
+  workspace: tanay-m-pradhan
+  project: car-7iqf2
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/tanay-m-pradhan/car-7iqf2/dataset/1
